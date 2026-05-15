@@ -1,0 +1,20 @@
+{
+    "3A44FF0AB1692C91": {
+        "[Restore Code (Use after unchecking any cheats below)]": "[Restore Code (Use after unchecking any cheats below)]\n04000000 030294FC 7100051F\n04000000 02D2B628 1E2E100A\n04000000 02D2D2EC 1E2E100A\n04000000 02AE8F08 0B080122\n04000000 02B0B9F4 0B140108\n04000000 0300523C B90042A8\n04000000 02B87E2C B9402D08\n04000000 02B676AC B9002268\n\n",
+        "[inf MP]": "[inf MP]\n04000000 0300523C D503201F\n\n",
+        "[Exp Multiplier 2x]": "[Exp Multiplier 2x]\n04000000 02B0B9F4 0B140908\n\n",
+        "[Exp Multiplier 4x]": "[Exp Multiplier 4x]\n04000000 02B0B9F4 0B141108\n\n",
+        "[Exp Multiplier 8x]": "[Exp Multiplier 8x]\n04000000 02B0B9F4 0B142108\n\n",
+        "[Exp Multiplier 16x]": "[Exp Multiplier 16x]\n04000000 02B0B9F4 0B144108\n\n",
+        "[Gold Multiplier 2x]": "[Gold Multiplier 2x]\n04000000 02AE8F08 0B000928\n\n",
+        "[Gold Multiplier 4x]": "[Gold Multiplier 4x]\n04000000 02AE8F08 0B001128\n\n",
+        "[Gold Multiplier 8x]": "[Gold Multiplier 8x]\n04000000 02AE8F08 0B002128\n\n",
+        "[Gold Multiplier 16x]": "[Gold Multiplier 16x]\n04000000 02AE8F08 0B004128\n\n",
+        "[Player Damage Reduction 99%]": "[Player Damage Reduction 99%]\n04000000 02D2B628 1E2703EA\n04000000 02D2D2EC 1E2703EA\n\n",
+        "[Player Damage Reduction 50%]": "[Player Damage Reduction 50%]\n04000000 02D2B628 1E2C100A\n04000000 02D2D2EC 1E2C100A\n\n",
+        "[Player Damage Reduction 25%]": "[Player Damage Reduction 25%]\n04000000 02D2B628 1E2A100A\n04000000 02D2D2EC 1E2A100A\n\n",
+        "[invincible]": "[invincible]\n04000000 030294FC 7100011F\n\n",
+        "[Upgrade skills without Points]": "[Upgrade skills without Points]\n04000000 02B87E2C 52800C68\n\n",
+        "[Infinite Potion]": "[Infinite Potion]\n04000000 02B676AC D503201F\n\n"
+    }
+}

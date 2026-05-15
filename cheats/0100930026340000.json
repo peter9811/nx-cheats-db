@@ -1,0 +1,10 @@
+{
+    "CE32AC446AAEEED9": {
+        "[Cheats by TomSwitch]": "[Cheats by TomSwitch]\n04000000 01EB25F4 394386A8\n\n",
+        "[\ue0a6 \ue0a7 super and assist ready, hp full]": "[\ue0a6 \ue0a7 super and assist ready, hp full]\n04000000 01EB25F4 394386A8\n80000300\n04000000 01EB25F4 394386A8\n04000000 01EB25F4 149FF51E\n04000000 046AFA6C 580000A8\n04000000 046AFA70 F9005EA8\n04000000 046AFA74 B900A6BF\n04000000 046AFA78 394386A8\n04000000 046AFA7C 17600ADF\n04000000 046AFA80 00001F40\n04000000 046AFA84 00000FA0\n20000000\n\n",
+        "[hp no hack]": "[hp no hack]\n04000000 046AFA74 D503201F\n\n",
+        "[For info]": "[For info]\n20000000\n\n",
+        "[health all]": "[health all]\n04000000 01EAEFC4 B940A40A\n\n",
+        "[end]": "[end]\n20000001\n\n"
+    }
+}
