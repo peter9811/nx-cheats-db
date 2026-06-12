@@ -1,0 +1,18 @@
+{
+    "0285EDA5021DECA1": {
+        "[Damage Multiplier x2]": "[Damage Multiplier x2]\n04000000 01D621C0 1E2C1000\n\n",
+        "[Damage Multiplier x3.5]": "[Damage Multiplier x3.5]\n04000000 01D621C0 1E2A1000\n\n",
+        "[Enemy Movement Speed 0.25]": "[Enemy Movement Speed 0.25]\n04000000 01D62140 1E2A1000\n\n",
+        "[inf HP]": "[inf HP]\n04000000 01D62180 1E2703E0\n\n",
+        "[Max Energy]": "[Max Energy]\n04000000 01D0B980 52800C68\n\n",
+        "[Underling Uprising 1.0 herowang Original Code]": "[Underling Uprising 1.0 herowang Original Code]\n04000000 01CF53E0 B9010A6A\n\n",
+        "[Restore Code]": "[Restore Code]\n04000000 01D0C9C0 A9BB7BFD\n04000000 01D0B980 B941E808\n04000000 01D0BB48 B901EA7F\n04000000 01D02194 2A1603E1\n04000000 01D0D500 A9BE7BFD\n04000000 01D3D4BC 51000508\n04000000 01D0A06C BD400120\n\n",
+        "[No Damage for Me]": "[No Damage for Me]\n04000000 01D0C9C0 D65F03C0\n\n",
+        "[Infinite Super Skill]": "[Infinite Super Skill]\n04000000 01D0B980 B941EC08\n04000000 01D0BB48 D503201F\n\n",
+        "[One Punch Man]": "[One Punch Man]\n04000000 01D02194 5284E1E1\n\n",
+        "[Weapon Durability/Usage Not Decreasing]": "[Weapon Durability/Usage Not Decreasing]\n04000000 01D3D4BC 52800128\n\n",
+        "[Weapon in Hand Won\u2019t Drop, Hold Direction + Long Press A to Throw]": "[Weapon in Hand Won\u2019t Drop, Hold Direction + Long Press A to Throw]\n04000000 01D0D500 D65F03C0\n80000001\n04000000 01D0D500 A9BE7BFD\n20000000\n\n",
+        "[Movement Speed \u00d72]": "[Movement Speed \u00d72]\n04000000 01D0A06C 1E255000\n\n",
+        "[Movement Speed \u00d73]": "[Movement Speed \u00d73]\n04000000 01D0A06C 1E269000\n\n"
+    }
+}

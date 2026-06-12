@@ -1,0 +1,32 @@
+{
+    "44F516FB5C3D0125": {
+        "[MASTER RESTORE/OFF ENABLE]": "[MASTER RESTORE/OFF ENABLE]\n04000000 01B7B9BC B900AE68\n04000000 01B7B9A4 0B080128\n04000000 01B7E200 BD002500\n04000000 01B7E1E8 1E203820\n04000000 01B7E1EC 1E222000\n04000000 01B6D050 1E222000\n04000000 01B6F5F8 6B00013F\n04000000 01B6F62C 0B150022\n04000000 01B6F5F4 0B150029\n\n",
+        "[--SectionStart: Battle & Adventure Code--]": "[--SectionStart: Battle & Adventure Code--]\n00000000 00000000 00000000\n\n",
+        "[Inf Health/Hearts]": "[Inf Health/Hearts]\n04000000 01B7B9BC B900AE68\n04000000 01B7B9BC 149A023F\n04000000 041FC2B8 B9402268\n04000000 041FC2BC B900AE68\n04000000 041FC2C0 1765FDC0\n\n",
+        "[Hearts Not Decrease]": "[Hearts Not Decrease]\n04000000 01B7B9A4 0B1F0128\n\n",
+        "[Inf Mana Energy Not Decrease]": "[Inf Mana Energy Not Decrease]\n04000000 01B7E200 BD002500\n04000000 01B7E200 1499F832\n04000000 041FC2C8 BD402100\n04000000 041FC2CC BD002500\n04000000 041FC2D0 176607CD\n\n",
+        "[Use Mana Energy Not Decrease]": "[Use Mana Energy Not Decrease]\n04000000 01B7E1E8 1E204020\n\n",
+        "[Inf Mana Energy]": "[Inf Mana Energy]\n04000000 01B7E1EC 1E204040\n\n",
+        "[Quick Full Mana Energy]": "[Quick Full Mana Energy]\n04000000 01B6D050 1E204040\n\n",
+        "[--SectionEnd: Battle & Adventure Code--]": "[--SectionEnd: Battle & Adventure Code--]\n00000000 00000000 00000000\n\n",
+        "[--SectionStart: Misc.Adventure Code--]": "[--SectionStart: Misc.Adventure Code--]\n00000000 00000000 00000000\n\n",
+        "[Get Max Coin/Money]": "[Get Max Coin/Money]\n04000000 01B6F5F8 2A0003E9\n\n",
+        "[Use Coin/Money Not Decrease]": "[Use Coin/Money Not Decrease]\n04000000 01B6F62C 0B1F0022\n\n",
+        "[--SectionEnd: Misc.Adventure Code--]": "[--SectionEnd: Misc.Adventure Code--]\n00000000 00000000 00000000\n\n",
+        "[--SectionStart: Multiplier Code--]": "[--SectionStart: Multiplier Code--]\n00000000 00000000 00000000\n\n",
+        "[Get Coin/Money x2]": "[Get Coin/Money x2]\n04000000 01B6F5F4 0B150429\n\n",
+        "[Get Coin/Money x4]": "[Get Coin/Money x4]\n04000000 01B6F5F4 0B150829\n\n",
+        "[Get Coin/Money x8]": "[Get Coin/Money x8]\n04000000 01B6F5F4 0B150C29\n\n",
+        "[Get Coin/Money x16]": "[Get Coin/Money x16]\n04000000 01B6F5F4 0B151029\n\n",
+        "[Get Coin/Money x32]": "[Get Coin/Money x32]\n04000000 01B6F5F4 0B151429\n\n",
+        "[Get Coin/Money x64]": "[Get Coin/Money x64]\n04000000 01B6F5F4 0B151829\n\n",
+        "[--SectionEnd: Multiplier Code--]": "[--SectionEnd: Multiplier Code--]\n00000000 00000000 00000000\n\n",
+        "[--SectionStart: Non ASM Code--]": "[--SectionStart: Non ASM Code--]\n00000000 00000000 00000000\n\n",
+        "[Hearts 99]": "[Hearts 99]\n580F0000 0575CAB0\n580F1000 000000B8\n580F1000 00000010\n580F1000 00000020\n580F1000 000001A0\n780F0000 000000AC\n640F0000 00000000 00000063\n\n",
+        "[Invincible]": "[Invincible]\n580F0000 0575CAB0\n580F1000 000000B8\n580F1000 00000010\n580F1000 00000020\n580F1000 000001A0\n780F0000 000000A8\n610F0000 00000000 00000001\n\n",
+        "[No Damage]": "[No Damage]\n580F0000 0575CAB0\n580F1000 000000B8\n580F1000 00000010\n580F1000 00000020\n580F1000 000001A0\n780F0000 000000B0\n610F0000 00000000 00000000\n\n",
+        "[No Pushed By Enemy]": "[No Pushed By Enemy]\n580F0000 0575CAB0\n580F1000 000000B8\n580F1000 00000010\n580F1000 00000020\n580F1000 000001A0\n780F0000 000000B1\n610F0000 00000000 00000000\n\n",
+        "[Coins/Money 999]": "[Coins/Money 999]\n580F0000 057581D0\n580F1000 000000B8\n580F1000 00000368\n580F1000 00000018\n580F1000 00000010\n580F1000 00000098\n780F0000 00000170\n640F0000 00000000 000003E7\n\n",
+        "[--SectionEnd: Non ASM Code--]": "[--SectionEnd: Non ASM Code--]\n00000000 00000000 00000000\n\n"
+    }
+}
