@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 
 from os import mkdir, listdir, path
-from string import hexdigits
 from pathlib import Path
 import re
 import subprocess
 import json
 from collections import OrderedDict
+
+# Pre-compile regex for performance
+_HEX_RE = re.compile(r"^[0-9a-fA-F]{16}$")
+_HEADER_RE = re.compile(r"(\[.+\]|\{.+\})")
+_CODE_RE = re.compile(r"[0-9a-fA-F]{8}")
 
 
 class ProcessCheats:
@@ -16,7 +20,8 @@ class ProcessCheats:
         self.parseCheats()
 
     def isHexAnd16Char(self, file_name):
-        return (len(file_name) == 16) and (all(c in hexdigits for c in file_name[0:15]))
+        # Optimization: Use pre-compiled regex instead of manual character checking
+        return bool(_HEX_RE.match(file_name))
 
     def getCheatsPath(self, tid):
         for folder in tid.iterdir():
@@ -33,25 +38,37 @@ class ProcessCheats:
         return attribution
 
     def constructBidDict(self, sheet_path):
+        """
+        Parses a cheat sheet into a dictionary.
+        Optimization: Single-pass iteration over lines instead of multiple regex searches.
+        """
         out = OrderedDict()
-        pos = []
         with open(sheet_path, 'r', encoding="utf-8", errors="ignore") as cheatSheet:
             lines = cheatSheet.readlines()
 
-        for i in range(len(lines)):
-            titles = re.search(r"(\[.+\]|\{.+\})", lines[i])
-            if titles:
-                pos.append(i)
+        current_title = None
+        current_block = []
 
-        for i in range(len(pos)):
-            try:
-                codeLines = lines[pos[i]:pos[i + 1]]
-            except IndexError:
-                codeLines = lines[pos[i]:]
-            if len(codeLines) > 1:
-                code = "".join(codeLines)
-                if re.search("[0-9a-fA-F]{8}", code):
-                    out[lines[pos[i]].strip()] = code.strip("\n ") + "\n\n"
+        for line in lines:
+            header_match = _HEADER_RE.search(line)
+            if header_match:
+                # If we were already tracking a cheat, flush it if it contains valid code
+                if current_title and len(current_block) > 1:
+                    code = "".join(current_block)
+                    if _CODE_RE.search(code):
+                        out[current_title] = code.strip("\n ") + "\n\n"
+
+                current_title = line.strip()
+                current_block = [line]
+            elif current_title:
+                current_block.append(line)
+
+        # Flush the last cheat
+        if current_title and len(current_block) > 1:
+            code = "".join(current_block)
+            if _CODE_RE.search(code):
+                out[current_title] = code.strip("\n ") + "\n\n"
+
         return out
 
     def update_dict(self, new, old):
